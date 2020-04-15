@@ -2,3 +2,15 @@ body {
   font-family: sans-serif; }
   body img {
     width: 100%; }
+
+p {
+  color: pink; }
+
+ol em {
+  color: green; }
+
+.box {
+  width: 800px; }
+
+.a {
+  background-image: url(background.png); }
