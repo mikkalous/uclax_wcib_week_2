@@ -1,16 +1,35 @@
-body {
-  font-family: sans-serif; }
-  body img {
-    width: 100%; }
-
-p {
-  color: pink; }
-
-ol em {
-  color: green; }
+html {
+  font-family: "Trebuchet MS", helvetica, sans-serif;
+  font-size: 10px;
+  background-color: gray; }
 
 .box {
-  width: 800px; }
+  width: 1500px;
+  height: 900px;
+  border-radius: 10px;
+  background-size: contain;
+  background-repeat: repeat-x;
+  background-image: url("../photos/background.png"); }
 
-.a {
-  background-image: url(photos/background.png); }
+.cat {
+  width: 1366px;
+  height: 768px;
+  background-repeat: repeat-y;
+  background-position: bottom center;
+  background-attachment: fixed;
+  background-image: url("../photos/ZeeAvi.png"); }
+
+p {
+  color: pink;
+  background-color: maroon;
+  font-size: 1.2rem;
+  font-weight: normal;
+  text-align: center; }
+
+ol em {
+  color: green;
+  background-color: yellow;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  text-align: left;
+  line-height: 1.7; }
